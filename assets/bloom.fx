@@ -19,7 +19,7 @@ float invSteps;
 
 // linearly increases the strength of the bloom effect
 #ifndef STRENGTH
-#define STRENGTH 8.0
+#define STRENGTH 3.0
 #endif
 
 // strength of the "camera lens dirt" effect
