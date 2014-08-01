@@ -36,7 +36,7 @@ static float k = 0.00001;
  
 static const float2 rcpres = PIXEL_SIZE;
  
-static const float nearZ = 400000;
+static const float nearZ = 650000;
 static const float farZ = 2200000;
 static const float depthRange = (nearZ-farZ)*0.01;
 

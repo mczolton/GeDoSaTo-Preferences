@@ -19,27 +19,27 @@ float invSteps;
 
 // linearly increases the strength of the bloom effect
 #ifndef STRENGTH
-#define STRENGTH 3.0
+#define STRENGTH 2.0
 #endif
 
 // strength of the "camera lens dirt" effect
 #ifndef DIRT_STRENGTH
-#define DIRT_STRENGTH 0.5
+#define DIRT_STRENGTH 1.5
 #endif
 
 // to what degree non-HDR can be darkened by HDR eye adjustment
 #ifndef MIX_FACTOR
-#define MIX_FACTOR 0.7
+#define MIX_FACTOR 0.8
 #endif
 
 // how much to progressively desaturate distant bloom
 #ifndef SATURATION
-#define SATURATION 0.95
+#define SATURATION 1.0
 #endif
 
 // maximum brightness for HDR input - to prevent e.g. signs from blooming too much
 #ifndef MAX_BRIGHTNESS
-#define MAX_BRIGHTNESS float4(0.7,0.7,0.7,1.0)
+#define MAX_BRIGHTNESS float4(0.85,0.85,0.85,1.15)
 #endif
 
 // speed of eye adaption - larger number = quicker adaption
