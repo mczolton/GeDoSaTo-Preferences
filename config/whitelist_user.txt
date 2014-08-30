@@ -1,0 +1,8 @@
+# GeDoSaTo User Whitelist
+# One application name per line (application name = file name of the .exe without the .exe)
+# Wildcards supported (* = any sequence of characters, ? = any single character)
+# Unlike the global whitelist, this file will not be overwritten by updates
+
+# Format:
+# Exe File Name (or pattern) || Readable Name (optional)
+
